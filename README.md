@@ -1,5 +1,7 @@
 # React Laptop Customizer
 
+[View Live]( https://asktami.github.io/react-laptop_customizer/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The app is already functional. it allows users to build a custom laptop from a series of options, and reports the total cost of the user's order. One problem: all the functionality have been built into a single component! The single component has grown quite large and is doing too many different things. Unfortunately, apart from the source code, the previous developer provided little documentation.
