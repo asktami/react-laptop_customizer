@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a13ba0407c318d5325938e58ea057718",
+    "revision": "bef4bfc44a95652f0942ba2e465e82bd",
     "url": "/react-laptop_customizer/index.html"
   },
   {
-    "revision": "c642083e514c0288256d",
+    "revision": "670cedbd9dba215661f7",
     "url": "/react-laptop_customizer/static/css/main.a3270a3d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-laptop_customizer/static/js/2.ad9d7570.chunk.js"
   },
   {
-    "revision": "c642083e514c0288256d",
-    "url": "/react-laptop_customizer/static/js/main.82c6ffdc.chunk.js"
+    "revision": "670cedbd9dba215661f7",
+    "url": "/react-laptop_customizer/static/js/main.258de857.chunk.js"
   },
   {
     "revision": "ee127fd20a8bf902a42a",
