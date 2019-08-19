@@ -32,7 +32,6 @@ export default class FeatureList extends Component {
 			});
 
 			return (
-				//FeatureRow saved in features variable
 				<FeatureRow
 					featureHash={featureHash}
 					feature={feature}
@@ -40,15 +39,6 @@ export default class FeatureList extends Component {
 					options={options}
 					USCurrencyFormat={this.props.USCurrencyFormat}
 				/>
-
-				/*
-				<fieldset className="feature" key={featureHash}>
-					<legend className="feature__name">
-						<h3>{feature}</h3>
-					</legend>
-					{options}
-				</fieldset>
-				 */
 			);
 		});
 

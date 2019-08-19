@@ -13,31 +13,16 @@ export default class Summary extends Component {
 			const selectedOption = this.props.selected[feature];
 
 			return (
-				/*
-				// SummaryRow saved in summary variable
-				*/
 				<SummaryRow
 					featureHash={featureHash}
 					feature={feature}
 					selectedOption={selectedOption}
 					USCurrencyFormat={this.props.USCurrencyFormat}
 				/>
-
-				/*
-				// SummaryRow
-				<div className="summary__option" key={featureHash}>
-					<div className="summary__option__label">{feature} </div>
-					<div className="summary__option__value">{selectedOption.name}</div>
-					<div className="summary__option__cost">
-						{this.props.USCurrencyFormat.format(selectedOption.cost)}
-					</div>
-				</div>
-				*/
 			);
 		});
 
 		return (
-			// SummaryList
 			<section className="main__summary">
 				<h2>Your cart</h2>
 				{summary}
